@@ -26,14 +26,14 @@ ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'myblog',
-        'USER': 'root',
-        'PASSWORD': 'no6310906',
-        'HOST': 'localhost',
+        'NAME': 'ismyblog$myblog',
+        'USER': 'ismyblog',
+        'PASSWORD': 'hngmdps2022',
+        'HOST': 'ismyblog.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
@@ -44,7 +44,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 
 # 发送邮件设置
 # https://docs.djangoproject.com/en/2.0/ref/settings/#email
